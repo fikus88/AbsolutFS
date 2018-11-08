@@ -19,8 +19,8 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "e39c4cf869635781")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "9fbcf2304b9c180e")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.6")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
@@ -846,6 +846,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// Description
+		///</summary>
+		[ImplementPropertyType("description")]
+		public string Description
+		{
+			get { return this.GetPropertyValue<string>("description"); }
+		}
+
+		///<summary>
 		/// Email
 		///</summary>
 		[ImplementPropertyType("email")]
@@ -888,6 +897,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public IPublishedContent Photo
 		{
 			get { return this.GetPropertyValue<IPublishedContent>("photo"); }
+		}
+
+		///<summary>
+		/// Position
+		///</summary>
+		[ImplementPropertyType("position")]
+		public string Position
+		{
+			get { return this.GetPropertyValue<string>("position"); }
 		}
 
 		///<summary>
@@ -1114,6 +1132,121 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 	}
 
+	/// <summary>Testimonials</summary>
+	[PublishedContentModel("testimonials")]
+	public partial class Testimonials : PublishedContentModel, IContentBase, INavigationBase
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "testimonials";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Testimonials(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Testimonials, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Content
+		///</summary>
+		[ImplementPropertyType("bodyText")]
+		public Newtonsoft.Json.Linq.JToken BodyText
+		{
+			get { return Umbraco.Web.PublishedContentModels.ContentBase.GetBodyText(this); }
+		}
+
+		///<summary>
+		/// Page Title: The title of the page, this is also the first text in a google search result. The ideal length is between 40 and 60 characters
+		///</summary>
+		[ImplementPropertyType("pageTitle")]
+		public string PageTitle
+		{
+			get { return Umbraco.Web.PublishedContentModels.ContentBase.GetPageTitle(this); }
+		}
+
+		///<summary>
+		/// Keywords: Keywords that describe the content of the page. This is consired optional since most modern search engines don't use this anymore
+		///</summary>
+		[ImplementPropertyType("keywords")]
+		public IEnumerable<string> Keywords
+		{
+			get { return Umbraco.Web.PublishedContentModels.NavigationBase.GetKeywords(this); }
+		}
+
+		///<summary>
+		/// Description: A brief description of the content on your page. This text is shown below the title in a google search result and also used for Social Sharing Cards. The ideal length is between 130 and 155 characters
+		///</summary>
+		[ImplementPropertyType("seoMetaDescription")]
+		public string SeoMetaDescription
+		{
+			get { return Umbraco.Web.PublishedContentModels.NavigationBase.GetSeoMetaDescription(this); }
+		}
+
+		///<summary>
+		/// Hide in Navigation: If you don't want this page to appear in the navigation, check this box
+		///</summary>
+		[ImplementPropertyType("umbracoNavihide")]
+		public bool UmbracoNavihide
+		{
+			get { return Umbraco.Web.PublishedContentModels.NavigationBase.GetUmbracoNavihide(this); }
+		}
+	}
+
+	/// <summary>Testimonial</summary>
+	[PublishedContentModel("testimonial")]
+	public partial class Testimonial : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "testimonial";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Testimonial(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Testimonial, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Author
+		///</summary>
+		[ImplementPropertyType("author")]
+		public string Author
+		{
+			get { return this.GetPropertyValue<string>("author"); }
+		}
+
+		///<summary>
+		/// Content
+		///</summary>
+		[ImplementPropertyType("content")]
+		public string Content
+		{
+			get { return this.GetPropertyValue<string>("content"); }
+		}
+	}
+
 	/// <summary>Folder</summary>
 	[PublishedContentModel("Folder")]
 	public partial class Folder : PublishedContentModel
@@ -1270,6 +1403,41 @@ namespace Umbraco.Web.PublishedContentModels
 		public string UmbracoFile
 		{
 			get { return this.GetPropertyValue<string>("umbracoFile"); }
+		}
+	}
+
+	/// <summary>EmbedVideo</summary>
+	[PublishedContentModel("embedVideo")]
+	public partial class EmbedVideo : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "embedVideo";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Media;
+#pragma warning restore 0109
+
+		public EmbedVideo(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<EmbedVideo, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// EMbedVPicker
+		///</summary>
+		[ImplementPropertyType("eMbedVPicker")]
+		public IPublishedContent EMbedVpicker
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("eMbedVPicker"); }
 		}
 	}
 

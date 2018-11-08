@@ -252,6 +252,114 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\cache\0\a\3\2\7\c\0a327c712ce4725ddab3de5af36d9292a02c9b2b.jpg" />
+    <Content Include="App_Data\cache\0\b\1\9\3\0\0b1930311b3e76553aee068095a997fc11e457ae.jpg" />
+    <Content Include="App_Data\cache\1\7\c\c\2\b\17cc2ba317260418623dbcb427cdeb756187ab40.jpg" />
+    <Content Include="App_Data\cache\2\3\3\c\d\2\233cd27c4c3217320cb6ec8dfe2c831e97bd9965.jpg" />
+    <Content Include="App_Data\cache\2\5\6\1\3\1\2561316329b210ca6666ed0d95166421f2271f14.jpg" />
+    <Content Include="App_Data\cache\2\b\a\4\b\6\2ba4b6e748f12599db6feefa88c2024275cd2703.jpg" />
+    <Content Include="App_Data\cache\3\5\3\7\0\e\35370e7030004cb2800172cb3ff0cddddb1dcbc5.jpg" />
+    <Content Include="App_Data\cache\3\c\1\c\5\e\3c1c5ea998b5c4a1eaecc5ce3074d3081a3a7a4f.jpg" />
+    <Content Include="App_Data\cache\3\c\7\e\a\6\3c7ea6a53b886170ec8080a7f33cdf9ffaee20d2.jpg" />
+    <Content Include="App_Data\cache\3\f\d\7\3\2\3fd732f4459ddff91d42a3522d55048f7805634e.jpg" />
+    <Content Include="App_Data\cache\4\2\b\0\5\a\42b05a9c28aac108b6d7668a45f5ec62c5c0b4f6.jpg" />
+    <Content Include="App_Data\cache\4\f\0\9\5\7\4f09577bd36092fd5f31f4d9b273de34c971d7c3.jpg" />
+    <Content Include="App_Data\cache\5\1\7\1\8\1\517181f2ad89843b0629cc0c627c6330d825a17e.jpg" />
+    <Content Include="App_Data\cache\5\3\3\5\1\3\5335137d600fc3b03199f58700b022d30088849d.jpg" />
+    <Content Include="App_Data\cache\5\8\6\4\7\6\5864763af3b8171dfb57691d96394392e30f9731.jpg" />
+    <Content Include="App_Data\cache\5\b\c\2\5\3\5bc253af189afa56fd36891961be50d6f18aa6c5.jpg" />
+    <Content Include="App_Data\cache\6\6\c\e\3\8\66ce38072116d9d8ba39c70fd238c8a3100f82a7.png" />
+    <Content Include="App_Data\cache\6\d\2\6\e\0\6d26e064cfccf808fdd1e1319cffa7ac75d70f41.jpg" />
+    <Content Include="App_Data\cache\6\e\e\f\7\3\6eef73f1cb9907202a6cd6efdc71a1537f088807.jpg" />
+    <Content Include="App_Data\cache\6\f\b\a\f\b\6fbafb9d3857538eba9657d865f6b468d2841e9c.jpg" />
+    <Content Include="App_Data\cache\7\1\a\e\a\3\71aea3bbd7023646640e92e569a93c78d6b89676.jpg" />
+    <Content Include="App_Data\cache\7\3\0\a\2\7\730a27b6eeef69efa97eb9bcbb90893bfe5eb9d3.jpg" />
+    <Content Include="App_Data\cache\7\b\6\0\e\4\7b60e494d41827b5529873b0371600d42e8a343c.jpg" />
+    <Content Include="App_Data\cache\7\c\c\9\3\7\7cc937894c8b72c3595861c0f52c366bdcb37f24.png" />
+    <Content Include="App_Data\cache\8\1\9\6\5\c\81965c739d9417bc790a34507d4b3c728e0f7d1b.jpg" />
+    <Content Include="App_Data\cache\8\9\0\a\e\e\890aeeda373e0049bbeb11c88a609c94e469b25c.jpg" />
+    <Content Include="App_Data\cache\8\d\0\8\4\4\8d0844151f0c87cf3031d41290be6781b19aaf99.jpg" />
+    <Content Include="App_Data\cache\9\0\4\c\a\5\904ca557baf34c500e7af8a266159cb9dd8b117a.jpg" />
+    <Content Include="App_Data\cache\9\1\8\6\c\9\9186c95289254998ffb66d3d68528c24577783f0.jpg" />
+    <Content Include="App_Data\cache\9\3\7\6\9\9\9376991d09fd2aaa17164f2fa664ba599f3aa64e.jpg" />
+    <Content Include="App_Data\cache\9\8\4\4\1\e\98441e993fb95dcd9402a695a3bd2ec3b6fde104.jpg" />
+    <Content Include="App_Data\cache\9\c\6\1\e\f\9c61ef2e11321fccb3c2c3960d813b4877113af0.jpg" />
+    <Content Include="App_Data\cache\a\1\1\9\2\a\a1192acaf1deca7d7ff69a58bff97ae3284b11c5.jpg" />
+    <Content Include="App_Data\cache\a\3\2\5\a\5\a325a58a9a725cddc3c02de0d3b731b9023f8e85.jpg" />
+    <Content Include="App_Data\cache\a\d\7\3\1\1\ad73113a4895241dbbfc9d94d20af515d8042316.png" />
+    <Content Include="App_Data\cache\b\1\a\0\d\d\b1a0dd94f336dd25b6c5ec2a6cbb59f3fac2ed45.jpeg" />
+    <Content Include="App_Data\cache\b\6\e\2\1\d\b6e21ddba9efa457806947c26a415fe01dba3865.jpg" />
+    <Content Include="App_Data\cache\b\8\4\6\4\b\b8464ba5634c9a0194d1bf541535b50ef60424b3.png" />
+    <Content Include="App_Data\cache\c\7\0\b\a\9\c70ba92cede1ba16eddf964820866debedf604cb.jpg" />
+    <Content Include="App_Data\cache\c\a\5\4\4\e\ca544e98379f52f845712d795770a83110863a27.png" />
+    <Content Include="App_Data\cache\c\b\9\8\8\7\cb9887cd5021171369e142adb50dacd79490220e.jpg" />
+    <Content Include="App_Data\cache\c\b\9\c\f\b\cb9cfb89989aeaf6f67748e05d5fe69611a92c33.jpg" />
+    <Content Include="App_Data\cache\c\c\9\8\5\c\cc985c3bc84850c25c1aec114d666e2cd35ab71b.jpg" />
+    <Content Include="App_Data\cache\c\f\6\4\a\0\cf64a0a5f522aeff24a565ba50cdbd43bd101125.jpg" />
+    <Content Include="App_Data\cache\d\c\1\5\0\f\dc150fe1a1739fd87f0671cded4792ef52eec784.jpg" />
+    <Content Include="App_Data\cache\d\e\e\4\1\0\dee41064cdb8955880dc46b6e2295aea4b21785e.jpg" />
+    <Content Include="App_Data\cache\e\1\d\d\1\0\e1dd1088bcd99d9a0882f3e95befead73816eba0.jpg" />
+    <Content Include="App_Data\cache\e\6\d\e\9\b\e6de9b416943a873b42d2cf8e7ae2d8e2cebd81f.jpg" />
+    <Content Include="App_Data\cache\e\d\8\7\9\3\ed87937fff1c4d20f954ed5c237828054207aa95.jpg" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.Lukasz-PC.txt" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.Lukasz-PC.txt.2018-11-06" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.MAB1343.txt" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.MAB1343.txt.2018-10-24" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\404handlers.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\applications.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\BackOfficeTours\getting-started.json" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\BaseRestExtensions.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\ClientDependency.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Dashboard.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\EmbeddedMedia.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\ExamineIndex.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\ExamineSettings.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\feedProxy.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\FileSystemProviders.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\grid.editors.config.js" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\HealthChecks.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\imageprocessor\cache.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\imageprocessor\processing.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\imageprocessor\security.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\cs-CZ.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\da-DK.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\de-DE.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\en-GB.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\en-US.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\es-ES.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\fr-FR.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\he-IL.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\it-IT.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\ja-JP.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\ko-KR.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\nb-NO.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\nl-NL.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\pl-PL.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\pt-BR.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\ru-RU.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\sv-SE.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\Lang\zh-CN.user.xml" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\log4net.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\metablogConfig.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\scripting.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\tinyMceConfig.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\trees.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Config\umbracoSettings.config" />
+    <Content Include="App_Data\NuGetBackup\20181024-142625\Web.config" />
+    <Content Include="App_Data\packages\installed\installedPackages.config" />
+    <Content Include="App_Data\TEMP\ClientDependency\LUKASZ-PC-3ae6998e17e8d3fe4bfa37e48261e37d-map.xml" />
+    <Content Include="App_Data\TEMP\ClientDependency\MAB1343-1df4e8e63bbfca9d37019d54b59a7352-map.xml" />
+    <Content Include="App_Data\TEMP\DistCache\LMW3SVC2ROOT-lastsynced.txt" />
+    <Content Include="App_Data\TEMP\DistCache\LMW3SVC3ROOT-lastsynced.txt" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\InternalMember\Index\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\InternalMember\Index\segments_2" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\segments.gen" />
+    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.LUKASZ-PC.hash" />
+    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.LUKASZ-PC.list" />
+    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.MAB1343.hash" />
+    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.MAB1343.list" />
+    <Content Include="App_Data\umbraco.config" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.htm" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.resource.js" />
@@ -291,6 +399,27 @@
     <Content Include="Media\1015\7377957524_347859faac_b.jpg" />
     <Content Include="Media\1016\14272036539_469ca21d5c_h.jpg" />
     <Content Include="Media\1030\16403439029_f500be349b_o.jpg" />
+    <Content Include="Media\1031\dd4ac940-912a-11e8-81c9-1b431fd718bc-rimg-w1200-h799-dce9e9e9-gmir.jpg" />
+    <Content Include="Media\1031\dd4ac940-912a-11e8-81c9-1b431fd718bc-rimg-w1200-h799-dce9e9e9-gmir_big-thumb.jpg" />
+    <Content Include="Media\1031\dd4ac940-912a-11e8-81c9-1b431fd718bc-rimg-w1200-h799-dce9e9e9-gmir_thumb.jpg" />
+    <Content Include="Media\1032\liability-insurance-vs-surety-bonds-1500x836.jpg" />
+    <Content Include="Media\1032\liability-insurance-vs-surety-bonds-1500x836_big-thumb.jpg" />
+    <Content Include="Media\1032\liability-insurance-vs-surety-bonds-1500x836_thumb.jpg" />
+    <Content Include="Media\1033\image-1-recovered.png" />
+    <Content Include="Media\1034\image-1-recovered2.png" />
+    <Content Include="Media\1035\7929513_5ece9336728536f85f07e5f7d0d097709eb65d5d-wm.mp4" />
+    <Content Include="Media\1036\3ca0237d743717c9093447a8da57584d.jpg" />
+    <Content Include="Media\1037\hilarious-drunk-stories.png" />
+    <Content Include="Media\1038\drunk-humor-funny-picture-241.jpg" />
+    <Content Include="Media\1039\face-run.jpg" />
+    <Content Include="Media\1040\drunk-girl-with-cat-face-funny-image.jpg" />
+    <Content Include="Media\1041\alex_davison_boulder_funny_drunk_girl.jpg" />
+    <Content Include="Media\1042\funny-faces-drunk_face.jpg" />
+    <Content Include="Media\1043\funny-face-of-a-drunk-guy-2.jpg" />
+    <Content Include="Media\1044\no-im-not-drunk-ugly-women-and-girls.jpg" />
+    <Content Include="Media\1045\funny_drunk_people41.jpg" />
+    <Content Include="Media\1046\drunk-face.jpeg" />
+    <Content Include="Media\1047\8518aa97fd59165e8fd13926dff92a3c.jpg" />
     <Content Include="scripts\umbraco-starterkit-app.js" />
     <Content Include="Umbraco\Actions\delete.aspx" />
     <Content Include="Umbraco\Actions\editContent.aspx" />
@@ -1684,6 +1813,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Data\Models\all.generated.cs" />
+    <Compile Include="App_Data\Models\models.generated.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1712,6 +1843,44 @@
     <Content Include="config\404handlers.config" />
     <Content Include="App_Browsers\Form.browser" />
     <Content Include="App_Browsers\w3cvalidator.browser" />
+    <Content Include="App_Data\Models\all.dll.path" />
+    <Content Include="App_Data\Models\models.hash" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\segments_1l" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g.fdt" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g.fdx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g.fnm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g.frq" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g.nrm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g.prx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g.tii" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g.tis" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g.tvd" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g.tvf" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g.tvx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1g_2.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1h.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1i.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1j.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1k.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1l.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1l_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1m.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1m_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1n.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_1o.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\segments_1n" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1q.fdt" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1q.fdx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1q.fnm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1q.frq" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1q.nrm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1q.prx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1q.tii" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1q.tis" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1q.tvd" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1q.tvf" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1q.tvx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1r.cfs" />
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
@@ -1899,6 +2068,9 @@
     <Content Include="Views\Person.cshtml" />
     <Content Include="Views\Product.cshtml" />
     <Content Include="Views\Products.cshtml" />
+    <Content Include="Views\MacroPartials\GetTestimonials.cshtml" />
+    <Content Include="Views\Testimonial.cshtml" />
+    <Content Include="Views\Testimonials.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1910,7 +2082,11 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\packages\created\" />
+    <Folder Include="App_Data\TEMP\FileUploads\" />
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

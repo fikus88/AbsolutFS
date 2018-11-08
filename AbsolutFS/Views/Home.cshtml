@@ -9,19 +9,21 @@
     <div class="section__hero-content">
         <h1>@Model.Content.HeroHeader</h1>
         <p class="section__description">@Model.Content.HeroDescription</p>
+        
         @if (Model.Content.HeroCtalink != null)
         {
-            <a class="button button--border--solid" href="@Model.Content.HeroCtalink.Url">
+            @*<a class="button button--border--solid" href="@Model.Content.HeroCtalink.Url">
                 @Model.Content.HeroCtacaption
-            </a>
+            </a>*@
         }
     </div>
 </section>
-
+<div style="text-align:center">
+    <video style="width: 96%;" src="~/Media/1035/7929513_5ece9336728536f85f07e5f7d0d097709eb65d5d-wm.mp4" preload="auto"  muted autoplay loop></video>
+</div>
 <section class="section section">
     @Html.GetGridHtml(Model.Content, "bodyText", "bootstrap3-fluid")
 </section>
-
 
 <section class="section section--themed">
 
@@ -35,10 +37,7 @@
                 <a class="button button--border--light_solid" href="@Model.Content.FooterCtalink.Url">
                     @Model.Content.FooterCtacaption
                 </a>
-
             </div>
-
         </div>
     </div>
-
 </section>

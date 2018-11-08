@@ -1,0 +1,22 @@
+﻿@inherits UmbracoTemplatePage<ContentModels.Testimonials>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = "Master.cshtml";
+}
+@Html.Partial("~/Views/Partials/SectionHeader.cshtml")
+<section class="section--content-center">
+
+    <div class="container">
+
+        @{
+            var childreen = Model.Content.Children;
+
+            foreach (var c in childreen)
+            {
+
+                Testimonial testimonial = (Testimonial)c;
+                @Html.Partial("~/Views/Testimonial.cshtml", testimonial)
+            }
+        }
+    </div>
+</section>
