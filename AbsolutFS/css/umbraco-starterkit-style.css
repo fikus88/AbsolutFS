@@ -1063,13 +1063,13 @@ h2 {
 }
 
 .product-grid__item:hover body.theme-color-water .product-grid__item__name, .product-grid__item:hover body.theme-color-water .product-grid__item__price, body.theme-color-water .bg-main-color, body.theme-color-water .button--border--solid, body.theme-color-water .mobile-nav, body.theme-color-water .product-grid__item:hover .product-grid__item__name, body.theme-color-water .product-grid__item:hover .product-grid__item__price, body.theme-color-water .section--themed {
-    background-color: #362bdc;
+    background-color: #135581;
     color: #fff
 }
 
 .hamburger.lines:hover.active body.theme-color-water span:after, .hamburger.lines:hover.active body.theme-color-water span:before, .hamburger body.theme-color-water span, .hamburger body.theme-color-water span:after, .hamburger body.theme-color-water span:before, body.theme-color-water .bg-secondary-color, body.theme-color-water .hamburger.lines:hover.active span:after, body.theme-color-water .hamburger.lines:hover.active span:before, body.theme-color-water .hamburger span, body.theme-color-water .hamburger span:after, body.theme-color-water .hamburger span:before, body.theme-color-water .nav-link--home__text:after {
     background-color: #fff;
-    color: #362bdc
+    color: #135581
 }
 
 .blogposts-centered body.theme-color-water .blogpost-title, body.theme-color-water .blogposts-centered .blogpost-title, body.theme-color-water .button--border, body.theme-color-water .font-main-color, body.theme-color-water .nav-link, body.theme-color-water .section__hero-content, body.theme-color-water footer a, footer body.theme-color-water a {
@@ -1077,7 +1077,7 @@ h2 {
 }
 
 article body.theme-color-water a, article body.theme-color-water a:visited, body.theme-color-water .employee-grid__item__email, body.theme-color-water .font-link-color, body.theme-color-water article a, body.theme-color-water article a:visited {
-    color: #362bdc
+    color: #135581
 }
 
 body.theme-color-water--active.nav-link:visited, body.theme-color-water .border-main-color, body.theme-color-water .button--border, body.theme-color-water .nav-link--active, body.theme-color-water .nav-link:hover {
@@ -1825,8 +1825,10 @@ p.testimonial-text {
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50%
+    background-position: 50%;
+    opacity:0.1;
 }
+
 
 .employee-grid__item__details {
     padding: 30px;
@@ -1875,7 +1877,7 @@ label {
 }
 
     .form-control:focus {
-        border-color: #362bdc;
+        border-color: #135581;
         box-shadow: none
     }
 
@@ -2901,4 +2903,11 @@ article {
         -ms-grid-row-align: center;
         align-items: center
     }
+}
+
+/*Custom CSS*/
+
+
+.EmployeeLabel {
+   
 }

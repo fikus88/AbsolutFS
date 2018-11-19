@@ -27,18 +27,29 @@
         </nav>
         -->
         <div class="employee-list">
-            @foreach (ContentModels.Person person in Model.Content.Children)
+
+            @{
+
+                List<ContentModels.Person> PersonList = new List<Person>();
+
+                foreach (ContentModels.Person p in Model.Content.Children)
+                {
+                    PersonList.Add(p);
+                    };
+            }
+
+            @foreach (ContentModels.Person person in PersonList.OrderBy(x => x.DisplaySortOrder))
             {
 
                 <div>
                     <div class="employee-grid__item__image" style="background-image: url('@person.Photo.Url'); width:33%;float:left;border-radius: 100px 0px 0px 100px;margin-bottom:10px;margin-left:12px"></div>
-                    <div  class="employee-grid__item__details gradBack">
+                    <div class="employee-grid__item__details gradBack">
                         <h3 class="employee-grid__item__name">@person.Name</h3>
 
                         @if (!string.IsNullOrEmpty(person.Email))
-    {
-                    <a href="mailto:@person.Email" class="employee-grid__item__email">@person.Email</a>
-}
+                        {
+                            <a href="mailto:@person.Email" class="employee-grid__item__email">@person.Email</a>
+                        }
                         <div class="employee-grid__item__contact">
                             @SocialLink(person.FacebookUsername, "Facebook")
                             @SocialLink(person.TwitterUsername, "Twitter")
@@ -47,7 +58,7 @@
                         </div>
                         <div>
                             <h4><b>@person.Position</b></h4>
-                            @Html.Label("DescriptionLbl", person.Description, null)
+                            @Html.Label("DescriptionLbl", person.Description, new { @class="EmployeeLabel", @customVisible="false" , @hidden=true})
                         </div>
                     </div>
                 </div>

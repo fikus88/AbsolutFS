@@ -36,8 +36,8 @@
                             function() {
                                 var e = 150;
                                 $(window).scrollTop() > e
-                                    ? $(".header").addClass("header--fixed")
-                                    : $(".header").removeClass("header--fixed")
+                                    ? $(".header").addClass("header--fixed").find('.logo > .nav-link--home > .logo-image').attr('src', '/media/1054/logo_original_final.png')
+                                    : $(".header").removeClass("header--fixed").find('.logo > .nav-link--home > .logo-image').attr('src', '/media/1055/logo_whitel_final.png')
                             }), $(".mobile-nav-handler").click(function(e) {
                             $(".mobile-nav").toggleClass("mobile-nav--open"), $(".header").toggleClass("header--hide"),
                                 $("body").toggleClass("no-scroll"), $("#toggle-nav").toggleClass("active")

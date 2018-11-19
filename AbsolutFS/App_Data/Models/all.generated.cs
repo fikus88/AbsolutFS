@@ -8,7 +8,7 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "9fbcf2304b9c180e")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "f6677bff4ca2049f")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
@@ -868,6 +868,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public string Description
 		{
 			get { return this.GetPropertyValue<string>("description"); }
+		}
+
+		///<summary>
+		/// Display Sort Order
+		///</summary>
+		[ImplementPropertyType("displaySortOrder")]
+		public int DisplaySortOrder
+		{
+			get { return this.GetPropertyValue<int>("displaySortOrder"); }
 		}
 
 		///<summary>
